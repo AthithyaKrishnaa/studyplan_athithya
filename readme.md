@@ -21,6 +21,6 @@ git status
 
 git add .
 
-git commit -m "commit_changes"
+git commit -m "add new problems"
 
 git push
