@@ -1,0 +1,36 @@
+AI
+
+1.1 What is AI?
+It is a field of computer science that is capable of building system that perform tasks that usually require human intelligence.
+
+1.2 AI Features
+* Logical
+* Reasoning
+* Problem solving
+* Understanding Language
+* Recognizing images/videos
+* Making decisions
+
+1.3 Types of AI
+i. ANI - Artificial Narrow Intelligence (weak AI)
+Specialized in a particular area (Ex: ChatGPT - Conversation AI)
+ii. AGI - Artificial General Intelligence (strong AI)
+Can mimic the human intelligence completely (Ex: coding, driving, cooking, etc)
+iii. ASI - Artificial Super Intelligence
+Can beat human intelligence in every way possible, still as a theory (Ex: Skynet from Terminator)
+
+1.4 Machine Learning
+A subset of AI, that usually learns patterns from data and make predictions or decisions without being explicitly programmed.
+
+1.5 Types of ML
+i. Supervised Learning
+ii. Unsupervised Learning
+iii. Reinforcement Learning
+iv. Self-supervised Learning
+v. Semi-supervised Learning
+
+1.6 Deep Learning
+A subset of ML, which uses the concept of Artificial Neural Networks (ANN) that has multiple hidden layers to learn patterns from large number of datasets. It is used for image/video/speech recognition, NLP and autonomous systems.
+
+1.7 Gen AI
+A subset of DL, that is capable of creating text, image, video, speech and code based on the user prompts.

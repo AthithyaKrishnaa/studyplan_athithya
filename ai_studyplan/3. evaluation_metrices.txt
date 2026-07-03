@@ -1,0 +1,8 @@
+Evalutation Metrices
+
+Cofusion matrix values - TP, TN, FP, FN
+Accuracy - (TP+TN)/(TP+TN+FP+FN)
+Precision - TP/(TP+FP) - out of all the predicted positives, how much is actually correct?
+Recall - TP/(TP+FN) - out of all the actual positives, how many did the model find?
+F1 score - (2*P*R)/(P+R)
+MCC - ((TP+TN)-(FP+FN))/root((TP+FP)(TP+FN)(TN+FP)(TN+FN))

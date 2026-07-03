@@ -1,0 +1,17 @@
+MATHEMATICS IN AI
+
+Linear Algebra - contains vectors and matrices.
+Calculus - used for computing gradient descent, back-propagation.
+Probability - tells about how confident a model is, about it's prediction.
+Statistics - used for data cleaning, analysis and interpretation.
+Optimization - used to find the best model solution that has minimum loss and maximum accuracy.
+
+
+Evalutation Metrices
+
+Cofusion matrix values - TP, TN, FP, FN
+Accuracy - (TP+TN)/(TP+TN+FP+FN)
+Precision - TP/(TP+FP) - out of all the predicted positives, how much is actually correct?
+Recall - TP/(TP+FN) - out of all the actual positives, how many did the model find?
+F1 score - (2*P*R)/(P+R)
+MCC - ((TP+TN)-(FP+FN))/root((TP+FP)(TP+FN)(TN+FP)(TN+FN))
