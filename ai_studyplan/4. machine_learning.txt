@@ -1,0 +1,59 @@
+Machine Learning
+A subset of AI, that learns patterns from data using ML algorithms to make classifications or predictions, without being explicitly programmed.
+
+Types:
+1) Supervised learning
+It takes labeled data as input, to make classification and predictions for new data.
+
+1.1. Classification (It predicts categories)
+Algorithms
+Logistic Regression
+Decision Trees
+Random Forest
+SVM
+Naive Bayes
+
+1.2. Regression (It predicts continuous values)
+Algorithms
+Linear Regression
+Decision Tree Regressor
+Random Forest Regressor
+
+2) Unsupervised learning
+It takes unlabeled data as input, to find hidden pattern and relationship.
+
+2.1. Clustering (Assign similar data points to their respective clusters)
+Algorithms
+K-means
+
+2.2. Dimensionality reduction (reduces number of features while preserving important information)
+Algorithms
+PCA
+t-SNE
+
+2.3. Association Rule Learning (find relationship between items)
+Algorithms
+Apriori
+FP growth
+
+3) Reinforcement learning
+It uses the concept of Trial and error. Instead of labelling, it has rewards and penalties.
+
+Agent - the learner model
+Enviroinment - the place where the model learns
+State - the current position of the model
+Action - the action the model performs
+Rewards & Penalties - rewards for correct action, penalties for wrong
+Policy - the rules and regulations policies that are given to the agent
+
+Algorithm
+Q-learning
+SARSA
+
+4) Semi-supervised learning
+Learns using small amount of labeled data and large amount of unlabeled data.
+
+5) Self-supervised learning
+Learns from unlabeled data by creating its own labels through the process of predicting missing or next word during training.
+
+
