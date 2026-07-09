@@ -1,0 +1,57 @@
+Deep Learning
+It is a subset of ML, that uses the concept of ANN which has multiple hidden layers to find patterns in large dataset. 
+It is used for image/video/speech recognition, natural language processing and autonomous systems.
+
+ANN
+* It is a basic building block of deep learning.
+* It contains multiple interconnected neurons.
+* Input --> Multiple Hidden Layers --> Output
+
+AN
+* It is the smallest unit in ANN.
+* Input --> Multiply by Weights --> Add Bias --> Activation Function
+
+Components of ANN
+* Input: It receives the data value.
+* Weight: A learnable parameter that determines how much influence an input has on the output of a neuron.
+* Bias: A learnable constant that is added to the weighted sum, allowing the model to shift its output and fit the data more accurately.
+* Activation Function: It introduces non-linearity to the model. Otherwise, the model would perform like a simple linear model.
+
+Example of AF
+* ReLU (Rectified Linear Unit): f(x)=max(0,x)
+* Sigmoid: 1/(1+e^-x) Range: 0 to 1
+* Tanh: (e^x-e^-x)/(e^x+e^-x) range: -1 to 1
+* SoftMax: Gives output in probabilities. Used for Multi-class predictions.
+
+Training Process
+1. Forward Propagation: 
+Input --> Hidden Layer --> Prediction
+
+2. Loss Function: (calculates prediction error)
+Loss = Actual - Predicted
+
+3. Backward Propagation: (takes the error back and checks how much the previous weights influenced the errors and adjusts them using gradients)
+Prediction --> Calculate Loss --> Backpropagation --> Weight update
+
+4. Weight Update: (weights are updated using optimizers)
+Optimizer: (optimizers decide how weights should be updated)
+* Gradient Descent
+* Stochastic Gradient Descent
+* Adam 
+* SAM
+
+Hyperparameters (the setting that are given to the model before training)
+* Learning Rate: Controls how much the model updates its weights before each training step.
+* Batch Size: The number of training samples that are processed before updating the mode weights.
+* Epoch: One complete pass through the entire dataset.
+* Iterations: One weight update. Total iterations = Training samples / Batch size
+
+Model Performance Problems
+* Overfitting: The model memorizes data instead of learning general patterns.
+* Underfitting: The model is too simple to learn.
+* Regularization: It prevents overfitting by penalizing large weights.
+ --> L1 Regularization: Add absolute value of weights to the loss. Some weights becomes exactly zero.
+ --> L2 Regularization: Add square value of weights to the loss. Weights values reduces smoothly.
+* Dropout: Randomly deactivates some neurons during training.
+
+

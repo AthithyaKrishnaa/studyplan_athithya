@@ -19,18 +19,10 @@ Can mimic the human intelligence completely (Ex: coding, driving, cooking, etc)
 iii. ASI - Artificial Super Intelligence
 Can beat human intelligence in every way possible, still as a theory (Ex: Skynet from Terminator)
 
-1.4 Machine Learning
-A subset of AI, that usually learns patterns from data and make predictions or decisions without being explicitly programmed.
+MATHEMATICS IN AI
 
-1.5 Types of ML
-i. Supervised Learning
-ii. Unsupervised Learning
-iii. Reinforcement Learning
-iv. Self-supervised Learning
-v. Semi-supervised Learning
-
-1.6 Deep Learning
-A subset of ML, which uses the concept of Artificial Neural Networks (ANN) that has multiple hidden layers to learn patterns from large number of datasets. It is used for image/video/speech recognition, NLP and autonomous systems.
-
-1.7 Gen AI
-A subset of DL, that is capable of creating text, image, video, speech and code based on the user prompts.
+Linear Algebra - contains vectors and matrices.
+Calculus - used for computing gradient descent, back-propagation.
+Probability - tells about how confident a model is, about it's prediction.
+Statistics - used for data cleaning, analysis and interpretation.
+Optimization - used to find the best model solution that has minimum loss and maximum accuracy.

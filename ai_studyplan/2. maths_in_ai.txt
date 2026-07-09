@@ -1,9 +1,0 @@
-MATHEMATICS IN AI
-
-Linear Algebra - contains vectors and matrices.
-Calculus - used for computing gradient descent, back-propagation.
-Probability - tells about how confident a model is, about it's prediction.
-Statistics - used for data cleaning, analysis and interpretation.
-Optimization - used to find the best model solution that has minimum loss and maximum accuracy.
-
-
