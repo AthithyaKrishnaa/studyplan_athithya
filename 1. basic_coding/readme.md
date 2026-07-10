@@ -13,29 +13,25 @@ NUMBER PROBLEMS
 10. Reverse a number
 11. Sum of digits
 12. Product of digits
-13. Count digits
+13. Count occurrence of digits
 14. Largest digit in a number
 15. Smallest digit in a number
 16. GCD (HCF) of two numbers
 17. LCM of two numbers
 18. Swap two numbers
-19. Check even or odd
-20. Check positive, negative, or zero
-21. Multiplication table
-22. Power of a number
-23. Decimal to binary
-24. Binary to decimal
-25. Octal to decimal
-26. Decimal to octal
-27. Hexadecimal to decimal
-28. Decimal to hexadecimal
-29. Find the greatest of two numbers
-30. Find the greatest of three numbers
-31. Sum of first N natural numbers
-32. Sum of even numbers till N
-33. Sum of odd numbers till N
-34. Print all even numbers till N
-35. Print all odd numbers till N
+19. Decimal to binary
+20. Binary to decimal
+21. Octal to decimal
+22. Decimal to octal
+23. Hexadecimal to decimal
+24. Decimal to hexadecimal
+25. Find the greatest of two numbers
+26. Find the greatest of three numbers
+27. Sum of first N natural numbers
+28. Sum of even numbers till N
+29. Sum of odd numbers till N
+30. Print all even numbers till N
+31. Print all odd numbers till N
 
 STRING PROBLEMS
 ---------------
