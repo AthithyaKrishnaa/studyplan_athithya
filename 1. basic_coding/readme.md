@@ -1,45 +1,41 @@
 NUMBER PROBLEMS
 ---------------
+
 1. Fibonacci series
 2. Factorial of a number
 3. Prime number or not
 4. Prime numbers till N
-5. Armstrong number
+5. Armstrong numbers till N
 6. Palindrome number
-7. Perfect number
+7. Perfect numbers till N
 8. Strong number
-9. Automorphic number
-10. Neon number
-11. Harshad (Niven) number
-12. Reverse a number
-13. Sum of digits
-14. Product of digits
-15. Count digits
-16. Largest digit in a number
-17. Smallest digit in a number
-18. GCD (HCF) of two numbers
-19. LCM of two numbers
-20. Swap two numbers
-21. Check even or odd
-22. Check positive, negative, or zero
-23. Multiplication table
-24. Power of a number
-25. Decimal to binary
-26. Binary to decimal
-27. Octal to decimal
-28. Decimal to octal
-29. Hexadecimal to decimal
-30. Decimal to hexadecimal
-31. Generate first N prime numbers
-32. Find factors of a number
-33. Check if a number is divisible by another
-34. Find the greatest of two numbers
-35. Find the greatest of three numbers
-36. Sum of first N natural numbers
-37. Sum of even numbers till N
-38. Sum of odd numbers till N
-39. Print all even numbers till N
-40. Print all odd numbers till N
+9. Factors of a number
+10. Reverse a number
+11. Sum of digits
+12. Product of digits
+13. Count digits
+14. Largest digit in a number
+15. Smallest digit in a number
+16. GCD (HCF) of two numbers
+17. LCM of two numbers
+18. Swap two numbers
+19. Check even or odd
+20. Check positive, negative, or zero
+21. Multiplication table
+22. Power of a number
+23. Decimal to binary
+24. Binary to decimal
+25. Octal to decimal
+26. Decimal to octal
+27. Hexadecimal to decimal
+28. Decimal to hexadecimal
+29. Find the greatest of two numbers
+30. Find the greatest of three numbers
+31. Sum of first N natural numbers
+32. Sum of even numbers till N
+33. Sum of odd numbers till N
+34. Print all even numbers till N
+35. Print all odd numbers till N
 
 STRING PROBLEMS
 ---------------
