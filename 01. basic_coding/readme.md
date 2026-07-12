@@ -19,19 +19,10 @@ NUMBER PROBLEMS
 16. GCD (HCF) of two numbers
 17. LCM of two numbers
 18. Swap two numbers
-19. Decimal to binary
-20. Binary to decimal
-21. Octal to decimal
-22. Decimal to octal
-23. Hexadecimal to decimal
-24. Decimal to hexadecimal
-25. Find the greatest of two numbers
-26. Find the greatest of three numbers
-27. Sum of first N natural numbers
-28. Sum of even numbers till N
-29. Sum of odd numbers till N
-30. Print all even numbers till N
-31. Print all odd numbers till N
+19. All conversions
+20. Find the greatest of three numbers
+21. Sum of first N natural numbers
+22. Sum of even and odd numbers till N
 
 STRING PROBLEMS
 ---------------
