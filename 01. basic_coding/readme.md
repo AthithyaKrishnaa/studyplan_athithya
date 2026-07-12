@@ -1,15 +1,15 @@
 NUMBER PROBLEMS
 ---------------
 
-1. Fibonacci series
-2. Factorial of a number
-3. Prime number or not
-4. Prime numbers till N
-5. Armstrong numbers till N
-6. Palindrome number
-7. Perfect numbers till N
-8. Strong number
-9. Factors of a number
+01. Fibonacci series
+02. Factorial of a number
+03. Prime number or not
+04. Prime numbers till N
+05. Armstrong numbers till N
+06. Palindrome number
+07. Perfect numbers till N
+08. Strong number
+09. Factors of a number
 10. Reverse a number
 11. Sum of digits
 12. Product of digits
@@ -26,15 +26,15 @@ NUMBER PROBLEMS
 
 STRING PROBLEMS
 ---------------
-1. Count characters in a string
-2. Count vowels and consonants
-3. Count uppercase and lowercase letters
-4. Reverse a string
-5. Check palindrome string
-6. Check anagram
-7. Remove duplicate characters
-8. Find frequency of each character
-9. First non-repeating character
+01. Count characters in a string
+02. Count vowels and consonants
+03. Count uppercase and lowercase letters
+04. Reverse a string
+05. Check palindrome string
+06. Check anagram
+07. Remove duplicate characters
+08. Find frequency of each character
+09. First non-repeating character
 10. First repeating character
 11. Replace spaces with hyphens
 12. Convert to uppercase and lowercase
@@ -54,12 +54,10 @@ STRING PROBLEMS
 
 ARRAY/LIST PROBLEMS
 -------------------
-1. Find largest element
-2. Find smallest element
-3. Find second largest element
-4. Find second smallest element
-5. Sum of array elements
-6. Average of array
+
+01. Find first & second largest, first & second smallest element
+02. Find sum, average, median, mode of array elements
+
 7. Reverse an array
 8. Sort an array
 9. Remove duplicates
@@ -92,15 +90,15 @@ ARRAY/LIST PROBLEMS
 
 PATTERN PROBLEMS
 ----------------
-1. Right triangle star pattern
-2. Inverted triangle
-3. Pyramid pattern
-4. Inverted pyramid
-5. Diamond pattern
-6. Hollow square
-7. Hollow rectangle
-8. Hollow pyramid
-9. Number triangle
+01. Right triangle star pattern
+02. Inverted triangle
+03. Pyramid pattern
+04. Inverted pyramid
+05. Diamond pattern
+06. Hollow square
+07. Hollow rectangle
+08. Hollow pyramid
+09. Number triangle
 10. Floyd's triangle
 11. Pascal's triangle
 12. Butterfly pattern
@@ -115,15 +113,15 @@ PATTERN PROBLEMS
 
 BASIC LOGIC PROBLEMS
 --------------------
-1. Leap year check
-2. Largest of three numbers
-3. Smallest of three numbers
-4. Simple calculator
-5. Celsius to Fahrenheit
-6. Fahrenheit to Celsius
-7. Area of circle
-8. Area of rectangle
-9. Area of triangle
+01. Leap year check
+02. Largest of three numbers
+03. Smallest of three numbers
+04. Simple calculator
+05. Celsius to Fahrenheit
+06. Fahrenheit to Celsius
+07. Area of circle
+08. Area of rectangle
+09. Area of triangle
 10. Perimeter of rectangle
 11. Circumference of circle
 12. Simple Interest
@@ -143,65 +141,65 @@ BASIC LOGIC PROBLEMS
 
 RECURSION PROBLEMS
 ------------------
-1. Fibonacci using recursion
-2. Factorial using recursion
-3. Sum of first N numbers
-4. Power of a number
-5. Reverse a string
-6. GCD using recursion
-7. Decimal to binary
-8. Tower of Hanoi
-9. Binary Search using recursion
+01. Fibonacci using recursion
+02. Factorial using recursion
+03. Sum of first N numbers
+04. Power of a number
+05. Reverse a string
+06. GCD using recursion
+07. Decimal to binary
+08. Tower of Hanoi
+09. Binary Search using recursion
 10. Sum of digits using recursion
 
 FUNCTION PROBLEMS
 -----------------
-1. Find maximum using function
-2. Find minimum using function
-3. Prime check using function
-4. Palindrome check using function
-5. Armstrong check using function
-6. Fibonacci using function
-7. Factorial using function
-8. Calculator using functions
-9. Area calculator using functions
+01. Find maximum using function
+02. Find minimum using function
+03. Prime check using function
+04. Palindrome check using function
+05. Armstrong check using function
+06. Fibonacci using function
+07. Factorial using function
+08. Calculator using functions
+09. Area calculator using functions
 10. Swap numbers using function
 
 DICTIONARY PROBLEMS
 -------------------
-1. Count frequency of characters
-2. Count frequency of words
-3. Merge two dictionaries
-4. Sort dictionary by keys
-5. Sort dictionary by values
-6. Find key with maximum value
-7. Find key with minimum value
-8. Invert a dictionary
-9. Remove duplicate values
+01. Count frequency of characters
+02. Count frequency of words
+03. Merge two dictionaries
+04. Sort dictionary by keys
+05. Sort dictionary by values
+06. Find key with maximum value
+07. Find key with minimum value
+08. Invert a dictionary
+09. Remove duplicate values
 10. Create dictionary from two lists
 
 SET PROBLEMS
 ------------
-1. Find union of sets
-2. Find intersection of sets
-3. Find difference of sets
-4. Find symmetric difference
-5. Remove duplicates using set
-6. Check subset
-7. Check superset
-8. Find common elements
-9. Convert list to set
+01. Find union of sets
+02. Find intersection of sets
+03. Find difference of sets
+04. Find symmetric difference
+05. Remove duplicates using set
+06. Check subset
+07. Check superset
+08. Find common elements
+09. Convert list to set
 10. Count unique elements
 
 LOOP PRACTICE
 -------------
-1. Print numbers from 1 to N
-2. Print numbers from N to 1
-3. Print even numbers
-4. Print odd numbers
-5. Sum of numbers from 1 to N
-6. Product of numbers from 1 to N
-7. Multiplication tables
-8. Print squares of numbers
-9. Print cubes of numbers
+01. Print numbers from 1 to N
+02. Print numbers from N to 1
+03. Print even numbers
+04. Print odd numbers
+05. Sum of numbers from 1 to N
+06. Product of numbers from 1 to N
+07. Multiplication tables
+08. Print squares of numbers
+09. Print cubes of numbers
 10. Count numbers divisible by 3 and 5
