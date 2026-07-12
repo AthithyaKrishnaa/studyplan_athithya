@@ -37,25 +37,20 @@ STRING PROBLEMS
 9. First non-repeating character
 10. First repeating character
 11. Replace spaces with hyphens
-12. Convert to uppercase
-13. Convert to lowercase
-14. Count words
-15. Find longest word
-16. Find shortest word
-17. Remove vowels
-18. Remove spaces
-19. Reverse each word in a sentence
-20. Check if two strings are equal
-21. Find duplicate characters
-22. Find unique characters
-23. Count occurrences of a specific character
-24. Check substring exists
-25. Capitalize first letter of each word
-26. Toggle case
-27. Remove special characters
-28. Find ASCII value of each character
-29. Convert string to list
-30. Sort characters alphabetically
+12. Convert to uppercase and lowercase
+13. Count words
+14. Find longest and shortest word
+15. Remove vowels and spaces
+16. Reverse each word in a sentence
+17. Find duplicate characters
+18. Find unique characters
+19. Count occurrences of a specific character
+20. Check substring exists
+21. Capitalize first letter of each word
+22. Toggle case each word
+23. Remove special characters
+24. Find ASCII value of each character
+25. Convert string to list and Sort characters alphabetically
 
 ARRAY/LIST PROBLEMS
 -------------------
