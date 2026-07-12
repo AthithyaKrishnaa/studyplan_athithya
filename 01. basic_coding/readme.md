@@ -57,8 +57,8 @@ ARRAY/LIST PROBLEMS
 
 01. Find first & second largest, first & second smallest element
 02. Find sum, average, median, mode of array elements
+03. Reverse and sort an array
 
-7. Reverse an array
 8. Sort an array
 9. Remove duplicates
 10. Find maximum and minimum
