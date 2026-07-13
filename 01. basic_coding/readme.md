@@ -58,35 +58,26 @@ ARRAY/LIST PROBLEMS
 01. Find first & second largest, first & second smallest element
 02. Find sum, average, median, mode of array elements
 03. Reverse and sort an array
-
-8. Sort an array
-9. Remove duplicates
-10. Find maximum and minimum
-11. Linear Search
-12. Binary Search
-13. Count even and odd numbers
-14. Find missing number
-15. Merge two arrays
-16. Rotate array left
-17. Rotate array right
-18. Find common elements
-19. Find unique elements
-20. Find frequency of each element
-21. Move all zeros to the end
-22. Move all zeros to the beginning
-23. Find duplicate elements
-24. Find intersection of two arrays
-25. Find union of two arrays
-26. Find largest difference
-27. Find smallest difference
-28. Check if array is sorted
-29. Split array into even and odd
-30. Remove a specific element
-31. Insert an element at a position
-32. Delete an element
-33. Count positive and negative numbers
-34. Find index of an element
-35. Copy one array to another
+04. Remove duplicates and find maximum and minimum
+05. Linear Search and Binary Search
+06. Count even and odd numbers
+07. Find missing number
+08. Merge two arrays
+09. Rotate array left and right
+10. Find common elements
+11. Find unique elements
+12. Find frequency of each element
+13. Move all zeros to the end
+14. Move all zeros to the beginning
+15. Find duplicate elements
+16. Find intersection of two arrays
+17. Find union of two arrays
+18. Find largest and smallest difference
+19. Check if array is sorted
+20. Split array into even and odd
+21. Remove a specific element, insert and delete an element
+22. Count positive and negative numbers
+23. Find index of an element and Copy one array to another
 
 PATTERN PROBLEMS
 ----------------
