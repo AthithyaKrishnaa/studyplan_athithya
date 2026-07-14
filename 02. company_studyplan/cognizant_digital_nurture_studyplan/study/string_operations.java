@@ -1,3 +1,4 @@
+package study;
 import java.util.Arrays;
 
 class string_operations {

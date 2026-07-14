@@ -1,3 +1,4 @@
+package study;
 import java.util.Arrays;
 
 class array_operations {

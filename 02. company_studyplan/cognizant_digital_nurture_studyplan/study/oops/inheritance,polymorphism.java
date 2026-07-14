@@ -1,3 +1,4 @@
+package study;
 // Inheritance, Method Overloading and Method Overriding
 
 class Main extends Animal{
