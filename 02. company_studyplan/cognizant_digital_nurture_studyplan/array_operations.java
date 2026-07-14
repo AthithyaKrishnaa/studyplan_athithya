@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Main {
+class array_operations {
     public static void main(String[] args) {
 
         int[] arr = {5, 2, 8, 1, 9};

@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Main {
+class string_operations {
     public static void main(String[] args) {
 
         String name = "Krishnaa";
