@@ -100,7 +100,6 @@ PATTERN PROBLEMS
 17. Number pyramid
 18. Hollow diamond
 19. Zig-zag pattern
-20. Hourglass pattern
 
 BASIC LOGIC PROBLEMS
 --------------------
