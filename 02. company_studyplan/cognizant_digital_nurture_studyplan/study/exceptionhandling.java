@@ -3,25 +3,28 @@
 // try, catch, finally, throw, throws 
 package study;
 
-class exceptionhandling{
-    static void checknum(int num) throws Exception{
-        if(num<0){
-            throw new Exception("Number less than zero");
-        }
-    }
+// try, catch, finally, throw, throws
+class exceptionhandling {
     public static void main(String[] args){
         try{
             int a=10;
-            int b=10;
-            
+            int b=0;
             System.out.println(a/b);
-            checknum(-5);
+        }catch(Exception e){
+            System.out.println(e.getMessage());
+        }finally{
+            System.out.println("finally block");
         }
-        catch(Exception e){
-            System.out.println("Exception : "+e.getMessage());
+        try{
+            checkNum(-1);
+        }catch(Exception e){
+            System.out.println(e.getMessage());
         }
-        finally{
-            System.out.println("finally block executed");
+    }
+    
+    static void checkNum(int num) throws Exception{
+        if(num<0){
+            throw new Exception("Less than zero");
         }
     }
 }
