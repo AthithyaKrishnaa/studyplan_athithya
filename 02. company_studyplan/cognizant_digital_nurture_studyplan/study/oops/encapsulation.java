@@ -1,42 +1,47 @@
-package study.oops;
+//  inheritance, polymorphism, encapsulation, abstraction, interface
 
-public class encapsulation{
-    public static void main(String[] args){
-        
-        BankAccount obj = new BankAccount();
-        
-        obj.setAccountHolder("krishnaa");
+class Main{
+    public static  void main(String[] args){
+        Bank obj = new Bank();
+        obj.setName("Ambrish");
         obj.deposit(5000);
         obj.withdraw(1000);
-        
-        System.out.println("Account Holder Name :"+obj.getAccountHolder());
-        System.out.println("Balance Amount      :"+obj.balance());
+        System.out.println(obj.getName());
+        System.out.println(obj.showBalance());
+        obj.showBalance2();
     }
 }
 
-class BankAccount{
+class Bank{
+    private String name; 
+    private int balance; 
     
-    private String AccountHolder;
-    private double balance;
-    
-    void setAccountHolder(String AccountHolder){
-        this.AccountHolder=AccountHolder;
+    void setName(String name){
+        this.name=name;
     }
-    String getAccountHolder(){
-        return AccountHolder;
+    String getName(){
+        return name;
     }
-    void deposit(double amount){
+    void deposit(int amount){
         if(amount>0){
             balance+=amount;
         }
-    }
-    void withdraw(double amount){
-        if(amount>0 && amount<=balance){
-            balance-=amount;
+        else{
+            System.out.println("Amount cannot be eqal or less than zero");
         }
     }
-    double balance(){
+    void withdraw(int amount){
+        if(amount<balance && amount>0){
+            balance-=amount;
+        }else{
+            System.out.println("Amount cannot be greater than balance");
+        }
+    }
+    int showBalance(){
         return balance;
     }
+    void showBalance2(){
+        System.out.println(balance);
+    }
+    
 }
-
