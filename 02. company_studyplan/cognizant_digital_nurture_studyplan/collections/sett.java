@@ -1,4 +1,5 @@
 // add, remove, search, iterate, sort list
+package collections;
 import java.util.*;
 class sett{
     public static void main(String[] args){

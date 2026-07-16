@@ -101,46 +101,6 @@ PATTERN PROBLEMS
 18. Hollow diamond
 19. Zig-zag pattern
 
-BASIC LOGIC PROBLEMS
---------------------
-01. Leap year check
-02. Largest of three numbers
-03. Smallest of three numbers
-04. Simple calculator
-05. Celsius to Fahrenheit
-06. Fahrenheit to Celsius
-07. Area of circle
-08. Area of rectangle
-09. Area of triangle
-10. Perimeter of rectangle
-11. Circumference of circle
-12. Simple Interest
-13. Compound Interest
-14. Calculate BMI
-15. Electricity bill calculation
-16. Grade calculator
-17. Salary calculation
-18. Age calculator
-19. Random password generator
-20. Guess the number game
-21. Rock-Paper-Scissors game
-22. ATM simulation
-23. Student marks calculator
-24. Shopping bill calculator
-25. Currency converter
-
-RECURSION PROBLEMS
-------------------
-01. Fibonacci using recursion
-02. Factorial using recursion
-03. Sum of first N numbers
-04. Power of a number
-05. Reverse a string
-06. GCD using recursion
-07. Decimal to binary
-08. Tower of Hanoi
-09. Binary Search using recursion
-10. Sum of digits using recursion
 
 FUNCTION PROBLEMS
 -----------------
@@ -181,15 +141,44 @@ SET PROBLEMS
 09. Convert list to set
 10. Count unique elements
 
-LOOP PRACTICE
--------------
-01. Print numbers from 1 to N
-02. Print numbers from N to 1
-03. Print even numbers
-04. Print odd numbers
-05. Sum of numbers from 1 to N
-06. Product of numbers from 1 to N
-07. Multiplication tables
-08. Print squares of numbers
-09. Print cubes of numbers
-10. Count numbers divisible by 3 and 5
+RECURSION PROBLEMS
+------------------
+01. Fibonacci using recursion
+02. Factorial using recursion
+03. Sum of first N numbers
+04. Power of a number
+05. Reverse a string
+06. GCD using recursion
+07. Decimal to binary
+08. Tower of Hanoi
+09. Binary Search using recursion
+10. Sum of digits using recursion
+
+
+BASIC LOGIC PROBLEMS
+--------------------
+01. Leap year check
+02. Largest of three numbers
+03. Smallest of three numbers
+04. Simple calculator
+05. Celsius to Fahrenheit
+06. Fahrenheit to Celsius
+07. Area of circle
+08. Area of rectangle
+09. Area of triangle
+10. Perimeter of rectangle
+11. Circumference of circle
+12. Simple Interest
+13. Compound Interest
+14. Calculate BMI
+15. Electricity bill calculation
+16. Grade calculator
+17. Salary calculation
+18. Age calculator
+19. Random password generator
+20. Guess the number game
+21. Rock-Paper-Scissors game
+22. ATM simulation
+23. Student marks calculator
+24. Shopping bill calculator
+25. Currency converter

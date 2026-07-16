@@ -1,4 +1,6 @@
 // add, remove, search, iterate, sort
+package collections;
+
 import java.util.*;
 class listt{
     public static void main(String[] args){

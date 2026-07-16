@@ -1,4 +1,5 @@
 // add, remove, search, iterate
+package collections;
 import java.util.*;
 class queuee{
     public static void main(String[] args){
