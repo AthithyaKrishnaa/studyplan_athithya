@@ -1,4 +1,4 @@
-//  inheritance, polymorphism, encapsulation, abstraction, interface
+//  encapsulation
 
 class Main{
     public static  void main(String[] args){
