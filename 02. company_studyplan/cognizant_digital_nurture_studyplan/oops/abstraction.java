@@ -1,6 +1,6 @@
 // abstraction
 
-package study.oops;
+package oops;
 
 class abstraction{
     public static void main(String[] args){

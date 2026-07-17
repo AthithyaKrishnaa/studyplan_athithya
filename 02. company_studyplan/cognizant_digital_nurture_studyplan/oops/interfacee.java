@@ -1,6 +1,6 @@
 // interface
 
-package study.oops;
+package oops;
 
 class interfacee{
     public static void main(String[] args){

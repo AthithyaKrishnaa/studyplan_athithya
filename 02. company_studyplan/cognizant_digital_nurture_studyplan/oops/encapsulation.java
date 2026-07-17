@@ -1,5 +1,5 @@
 //  encapsulation
-package study.oops;
+package oops;
 
 class encapsulation{
     public static  void main(String[] args){
