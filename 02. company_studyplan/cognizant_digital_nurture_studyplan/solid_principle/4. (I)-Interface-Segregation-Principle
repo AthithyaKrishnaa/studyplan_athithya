@@ -1,0 +1,34 @@
+import java.util.*;
+
+class Main{
+    public static void main(String[] args){
+        Human h = new Human();
+        Robot r = new Robot();
+        
+        h.work();
+        h.eat();
+        
+        r.work();
+    }
+}
+
+interface Work{
+    void work();
+}
+interface Eat{
+    void eat();
+}
+
+class Human implements Work, Eat{
+    public void work(){
+        System.out.println("Worker is working");
+    }
+    public void eat(){
+        System.out.println("Worker is eating");
+    }
+}
+class Robot implements Work{
+    public void work(){
+        System.out.println("Robot is working");
+    }
+}

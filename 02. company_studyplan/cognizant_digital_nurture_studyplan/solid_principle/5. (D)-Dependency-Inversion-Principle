@@ -1,0 +1,33 @@
+class Main{
+    public static void main(String[] args){
+        Keyboard k = new Wired(); // or Wireless
+        Computer c = new Computer(k);
+        c.start();
+    }
+}
+
+interface Keyboard{
+    void type();
+}
+// low level module
+class Wired implements Keyboard{
+    public void type(){
+        System.out.println("Using Wired Keyboard");
+    }
+}
+// low level module
+class Wireless implements Keyboard{
+    public void type(){
+        System.out.println("Using Wireless Keyboard");
+    }
+}
+// high level module
+class Computer{
+    Keyboard kb;
+    Computer(Keyboard k){
+        kb = k;
+    }
+    void start(){
+        kb.type();
+    }
+}

@@ -1,0 +1,38 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) throws Exception{
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Available Payments: Card, Upi, Net");
+        System.out.print("Enter Payment Type: ");
+        String type = sc.next();
+        type = type.substring(0,1).toUpperCase()+type.substring(1).toLowerCase();
+        Pay obj  = null;
+        try{
+            obj = (Pay) Class.forName(type).getDeclaredConstructor().newInstance();
+            obj.pay();
+        }
+        catch(Exception e){
+            System.out.println("Invalid Choice");
+        }
+        
+    }
+}
+
+interface Pay{
+    void pay();
+}
+class Card implements Pay{
+    public void pay(){
+        System.out.println("Card Payment Successful");
+    }
+}
+class Upi implements Pay{
+    public void pay(){
+        System.out.println("UPI Payment Successful");
+    }
+}
+class Net implements Pay{
+    public void pay(){
+        System.out.println("NetBanking Payment Successful");
+    }
+}
