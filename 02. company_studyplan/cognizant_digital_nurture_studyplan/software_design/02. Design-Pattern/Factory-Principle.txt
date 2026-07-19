@@ -1,0 +1,33 @@
+class Main{
+    public static void main(String[] args){
+        Factory obj = new Factory();
+        Shape s1 = obj.getShape("rectangle");
+        s1.draw();
+        Shape s2 = obj.getShape("Square");
+        s2.draw();
+    }
+}
+interface Shape{
+    void draw();
+}
+class Rectangle implements Shape{
+    public void draw(){
+        System.out.println("Drawining Rectangle");
+    }
+}
+class Square implements Shape{
+    public void draw(){
+        System.out.println("Drawining Square");
+    }
+}
+class Factory{
+    public Shape getShape(String type){
+        if(type.equalsIgnoreCase("Rectangle")){
+            return new Rectangle();
+        }
+        else if(type.equalsIgnoreCase("Square")){
+            return new Square();
+        }
+        return null;
+    }
+}

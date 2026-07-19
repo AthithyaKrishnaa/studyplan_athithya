@@ -1,0 +1,20 @@
+class Main{
+    public static void main(String[] args){
+        Printer p1 = Printer.getInstance();
+        Printer p2 = Printer.getInstance();
+        System.out.println(p1);
+        System.out.println(p2);
+    }
+}
+class Printer{
+    private static Printer obj;
+    private Printer(){
+        System.out.println("Printer Created");
+    }
+    public static Printer getInstance(){
+        if(obj==null){
+            obj = new Printer();
+        }
+        return obj;
+    }
+}
