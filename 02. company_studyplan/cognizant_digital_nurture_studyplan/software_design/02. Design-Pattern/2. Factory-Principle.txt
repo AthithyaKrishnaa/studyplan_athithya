@@ -1,9 +1,14 @@
+import java.util.*;
+
+// factory pattern
 class Main{
     public static void main(String[] args){
         Factory obj = new Factory();
-        Shape s1 = obj.getShape("rectangle");
+        String type = "rectangle";
+        Shape s1 = obj.getShape(type);
         s1.draw();
-        Shape s2 = obj.getShape("Square");
+        String type2 = "square";
+        Shape s2 = obj.getShape(type2);
         s2.draw();
     }
 }
@@ -21,7 +26,7 @@ class Square implements Shape{
     }
 }
 class Factory{
-    public Shape getShape(String type){
+    Shape getShape(String type){
         if(type.equalsIgnoreCase("Rectangle")){
             return new Rectangle();
         }

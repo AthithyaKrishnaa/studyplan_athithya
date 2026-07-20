@@ -1,38 +1,36 @@
+// Open-Closed Principle
+// open for extension closed for modification
 import java.util.*;
-class Main {
-    public static void main(String[] args) throws Exception{
+class Main{
+    public static void main(String[] main){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Available Payments: Card, Upi, Net");
-        System.out.print("Enter Payment Type: ");
+        System.out.println("Enter payment type:");
         String type = sc.next();
         type = type.substring(0,1).toUpperCase()+type.substring(1).toLowerCase();
-        Pay obj  = null;
+        Pay p;
         try{
-            obj = (Pay) Class.forName(type).getDeclaredConstructor().newInstance();
-            obj.pay();
+            p = (Pay) Class.forName(type).getDeclaredConstructor().newInstance();
+            p.pay();
+        }catch(Exception e){
+            System.out.println("Invalid choice");
         }
-        catch(Exception e){
-            System.out.println("Invalid Choice");
-        }
-        
     }
 }
-
 interface Pay{
     void pay();
 }
 class Card implements Pay{
     public void pay(){
-        System.out.println("Card Payment Successful");
+        System.out.println("Card payment successful");
     }
 }
 class Upi implements Pay{
     public void pay(){
-        System.out.println("UPI Payment Successful");
+        System.out.println("UPI payment successful");
     }
 }
 class Net implements Pay{
     public void pay(){
-        System.out.println("NetBanking Payment Successful");
+        System.out.println("NetBanking payment successful");
     }
 }

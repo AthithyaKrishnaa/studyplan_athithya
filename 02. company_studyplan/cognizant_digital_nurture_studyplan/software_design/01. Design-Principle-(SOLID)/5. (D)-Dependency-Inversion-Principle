@@ -1,31 +1,33 @@
+// Dependency Inversion Principle
+// High level module must not depend on low level module, both should depend on abstractions(abstract or interface classes). This makes the code easier to replace and test, without affecting the other parts.
+
 class Main{
     public static void main(String[] args){
-        Keyboard k = new Wired(); // or Wireless
+        Keyboard k = new Wireless();
         Computer c = new Computer(k);
         c.start();
     }
 }
-
 interface Keyboard{
     void type();
 }
-// low level module
+// low-level module
 class Wired implements Keyboard{
     public void type(){
-        System.out.println("Using Wired Keyboard");
+        System.out.println("Typing in WIRED keyboard");
     }
 }
-// low level module
+// low-level module
 class Wireless implements Keyboard{
     public void type(){
-        System.out.println("Using Wireless Keyboard");
+        System.out.println("Typing in WIRELESS keyboard");
     }
 }
-// high level module
+// high-level module
 class Computer{
-    Keyboard kb;
+    private Keyboard kb;
     Computer(Keyboard k){
-        kb = k;
+        kb=k;        
     }
     void start(){
         kb.type();

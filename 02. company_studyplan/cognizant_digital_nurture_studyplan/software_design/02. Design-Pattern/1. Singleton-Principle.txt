@@ -1,3 +1,6 @@
+import java.util.*;
+
+// singleton pattern
 class Main{
     public static void main(String[] args){
         Printer p1 = Printer.getInstance();
@@ -7,11 +10,11 @@ class Main{
     }
 }
 class Printer{
-    private static Printer obj;
+    private static Printer obj = null;
     private Printer(){
-        System.out.println("Printer Created");
+        
     }
-    public static Printer getInstance(){
+    static Printer getInstance(){
         if(obj==null){
             obj = new Printer();
         }
