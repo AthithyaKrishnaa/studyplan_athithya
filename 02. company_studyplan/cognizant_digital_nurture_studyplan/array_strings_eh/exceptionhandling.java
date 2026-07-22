@@ -1,7 +1,7 @@
 // exception handling
 
 // try, catch, finally, throw, throws 
-package study;
+package array_strings_eh;
 
 // try, catch, finally, throw, throws
 class exceptionhandling {

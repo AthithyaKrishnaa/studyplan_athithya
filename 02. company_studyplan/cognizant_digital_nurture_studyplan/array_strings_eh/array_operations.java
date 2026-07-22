@@ -1,4 +1,4 @@
-package study;
+package array_strings_eh;
 import java.util.Arrays;
 
 class array_operations {
@@ -18,7 +18,7 @@ class array_operations {
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
         // 6. Locate the position of 9 (array should already be ordered).
-        System.out.println(Arrays.binarySearch(arr,9));
+        System.out.println(Arrays.~ySearch(arr,9));
         // 7. Create a new array of size 5 and assign the same value to every element.
         int[] arr2 = new int[5];
         Arrays.fill(arr2,7);

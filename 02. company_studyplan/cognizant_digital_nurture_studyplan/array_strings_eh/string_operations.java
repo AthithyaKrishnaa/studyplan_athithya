@@ -1,4 +1,4 @@
-package study;
+package array_strings_eh;
 import java.util.Arrays;
 
 class string_operations {
