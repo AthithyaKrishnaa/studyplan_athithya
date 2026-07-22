@@ -1,0 +1,71 @@
+package study;
+import java.util.Arrays;
+
+class array_operations {
+    public static void main(String[] args) {
+
+        int[] arr = {5, 2, 8, 1, 9};
+
+        // 1. Find the total number of elements.
+
+
+        // 2. Display the third element.
+
+
+        // 3. Change the third element to 100.
+
+
+        // 4. Print the complete array.
+
+
+        // 5. Arrange the elements in ascending order.
+
+
+        // 6. Locate the position of 9 (array should already be ordered).
+
+
+        // 7. Create a new array of size 5 and assign the same value to every element.
+
+
+        // 8. Create an exact copy of the current array.
+
+
+        // 9. Copy only the elements from index 1 up to (but not including) index 4.
+
+
+        // 10. Check whether two arrays contain identical elements.
+
+        int[] x = {1,2,3};
+        int[] y = {1,2,3};
+
+
+        // 11. Compare the two arrays lexicographically.
+
+
+        // 12. Find the first index where these two arrays differ.
+
+        int[] z = {1,2,5};
+
+
+        // 13. Create another array using cloning.
+
+
+        // 14. Display a 2D array in a readable format.
+
+        int[][] matrix = {
+                {1,2},
+                {3,4}
+        };
+
+
+        // 15. Print every element using a traditional for loop.
+
+
+        // 16. Print every element using an enhanced for loop.
+
+
+        // 17. Traverse the 2D array and print each element.
+
+
+    }
+}
